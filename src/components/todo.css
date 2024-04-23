@@ -1,0 +1,35 @@
+body{
+   
+    background-color: #142d4c;
+    margin: 10%;
+
+}
+.main-div{
+    /* background-color: #ececec; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-div figcaption{
+    font-size: 35px;
+    color: #ececec;
+}
+.addItems input {
+     width: 50vw;
+     height: 5vh;
+     border-radius: 10px;
+}
+.addItems i {
+    color: #ececec;
+}
+.eachItem{
+    background-color: #ececec;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: 5px;
+    padding: 5px;
+}
